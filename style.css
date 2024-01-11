@@ -50,7 +50,8 @@ button {
 a {
   text-decoration: none;
 }
-svg {
+svg,
+img {
   display: block;
 }
 
@@ -270,14 +271,23 @@ svg {
   .information {
     flex-direction: row;
     gap: 36px;
+    justify-content: space-between;
   }
   .information__logo-image {
-    flex-basis: 55%;
+    width: 531.346px;
+    height: 307.241px;
   }
   .information__about {
-    flex-basis: 45%;
+    flex-basis: 50%;
   }
   .information__text {
+    color: #1b1c21;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
     max-height: 160px;
     overflow: hidden;
   }
